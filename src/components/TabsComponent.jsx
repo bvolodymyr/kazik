@@ -30,7 +30,7 @@ export default function TabsComponent() {
 				left='50%'
 				transform='translateX(-50%)'
 				width='100%'
-				maxWidth='480px'
+				maxWidth='495px'
 				display='flex'
 				justifyContent='space-around'
 				paddingY={2}

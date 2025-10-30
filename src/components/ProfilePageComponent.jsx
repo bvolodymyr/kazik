@@ -14,7 +14,7 @@ export default function ProfilePageComponent() {
 			<div>
 				<Avatar.Root
 					margin={10}
-					marginRight={'23%'}
+					marginRight={'15%'}
 					size='2xl'>
 					<Avatar.Fallback name='Test Name' />
 				</Avatar.Root>
@@ -23,7 +23,7 @@ export default function ProfilePageComponent() {
 					size='xs'
 					bgColor='#5153663d'
 					marginTop={'9%'}
-					marginRight={'-30%'}>
+					marginRight={'-25%'}>
 					<SegmentGroup.Indicator />
 					<SegmentGroup.Items
 						items={[
@@ -51,6 +51,7 @@ export default function ProfilePageComponent() {
 			<Text>У вас є 0✨іскор </Text>
 			<Button
 				marginTop={4}
+				marginBottom={4}
 				variant='plain'
 				color='#A8C7FA'>
 				🕘Історія дій {...'>'}
