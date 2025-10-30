@@ -24,17 +24,18 @@ export default function TabsComponent() {
 			<Tabs.Content value='play'>Play</Tabs.Content>
 			<Tabs.Content value='lotery'>Lottery</Tabs.Content>
 			<Tabs.List
-				bgColor='#0000003d'
+				bgColor='#000000cc'
 				position='fixed'
 				bottom='0'
+				left='50%'
+				transform='translateX(-50%)'
 				width='100%'
+				maxWidth='480px'
 				display='flex'
 				justifyContent='space-around'
 				paddingY={2}
 				backdropFilter='blur(10px)'
-				borderTop='1px solid rgba(255,255,255,0.2)'
-				zIndex='100'
-				maxWidth='500px'>
+				zIndex='100'>
 				<Tabs.Trigger
 					value='leaders'
 					fontSize={25}>
